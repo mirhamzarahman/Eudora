@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+font-family: 'Playball', cursive;
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Playfair Display', serif;
+ */
+/*****************************************************************************************header */
+header{
+background: url(../images/banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height:100vh ;
+}
+.nav_custom{
+   
+   z-index: 0 !important;
+   position: relative;
+   min-height: 20vh;
+}
+.nav_custom::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .5;
+    z-index: -1 !important;
+   
+}
+
+.nav_item_img{
+    width: 27%;
+    margin-left: 18px;
+    margin-right: 8px;
+    z-index: 1 !important;
+}
+.nav-link{
+    color: #fff;
+    margin-left: 10px;
+    z-index: 1 !important;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif !important;
+}
+.nav-link.active{
+    color: #fff !important;
+}
+.nav-link.active:hover{
+    color: #e59205 !important;
+}
+.nav-link:hover{
+    color: #e59205;
+}
+
+/*********************************************banner_section */
+.banner_section{
+text-align: center;
+min-height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.banner_section_info{
+    text-align: center;
+}
+.banner_section h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: 800;
+    font-size: 55px;
+}
+.banner_section p{
+    color: #e0e0e0;
+    margin: 29px 0;
+    font-family: 'Playfair Display', serif;
+    line-height: 27px;
+}
+
+.banner_section a{
+
+color: #fff;
+}.banner_section h2 span{
+    color: #e59205;
+
+}
+.btn_learn{
+
+color: #fff;
+
+border: none;
+
+border: 3px solid #fff;
+
+border-radius: 1px;
+
+padding: 0;
+
+font-family: 'Big Shoulders Display', sans-serif;
+
+padding: 5px 21px;
+
+font-weight: 700;
+
+font-size: 22px;
+}
+.btn_learn:hover {
+    background: #e59205;
+}
+/* ******************************************************order_section */
+.order_section{padding: 60px;color: #6e7498;}
+
+
+.order_first_row{
+text-align: center;
+align-items: center;
+}
+
+.order_first_row h1{
+    font-family: 'Playfair Display', serif;
+font-size: 45px;
+font-weight: 700;
+}
+
+.order_first_row span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #e59205;
+}
+
+
+
+.order_second_row{
+
+}
+.order_second_row p{
+    
+text-align: center;
+    
+padding: 33px 0;
+    
+font-size: 15px;
+    
+font-weight: 300;
+}
+.order_third_row{
+
+}
+.order_third_row a{
+    font-family: 'Big Shoulders Display', sans-serif;
+margin: 8px;
+}
+.order_third_row .btn_order{
+    
+border: none;
+    
+border: 1px solid #6e7498;
+    
+border-radius: 0;
+    
+padding: 2px 25px;
+    font-weight: 600;
+font-size: 20px;
+}
+.btn_order:hover{
+    background-color: #e59205;
+    color: #fff;
+    border: 1px solid #e59205;
+}
+/***************************food_section */
+
+.food_section{
+
+margin-bottom: 70px;
+}
+.food_img{
+
+text-align: center;
+
+margin-bottom: 41px;
+}
+.food_img img{
+    
+}
+ .btn_food{
+    
+border: none;
+    
+border: 1px solid #6e7498;
+    
+border-radius: 0;
+    
+padding: 5px 18px;
+    
+font-family: 'Big Shoulders Display', sans-serif;
+    
+font-weight: 700;
+    
+font-size: 16px;
+    
+color: #6e7498;
+}
+.btn_food:hover{
+    background-color: #e59205;
+    color: #fff;
+    border: 1px solid #e59205;
+}
+.food_img_big{
+
+text-align: center;
+}
+.food_img_big img{
+
+}
+.food_img_big h2{
+    font-family: 'Playfair Display', serif;
+    color: #e59205;
+    font-size: 47px;
+    margin-bottom: 22px;
+}
+.food_img_big p{color: #6e7498;font-weight: 300;line-height: 30px;font-size: 15px;margin-bottom: 20px;}
+.food_img_big span{color: #3a3a3a;font-size: 16px;font-weight: 600;}
+
+/*****************food_bg_section */
+.food_bg_section{
+    background-color: #e59205;
+    min-height: 49vh;
+    position: relative;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.food_bg_section .img{
+
+width: 803px;
+
+position: absolute;
+
+right: 0;
+}
+.food_bg_section .info{
+    
+
+    
+padding-left: 62px;
+    
+
+}
+.food_bg_section .info h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 50px;
+}
+
+/****************************************************meet_section */
+.meet_section{margin: 60px 0;text-align: center;}
+.meet_section .icon{
+    
+/* margin-bottom: 12px; */
+}
+.meet_section h4{
+    color: #6e7498;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.meet_section p{
+    color: #6e7498;
+    font-size: 14px;
+    line-height: 33px;
+    padding: 0 44px;
+    font-weight: 370;
+    margin-bottom: 25px;
+}
+
+/**********************************************footer_bg_section */
+.footer_bg_section{
+background:url(../images/footer_banner.png) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 60vh;
+
+}
+.footer_bg_section h1{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin-top: 115px;
+    margin-bottom: 23px;
+}
+.footer_bg_section input{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 90px;
+    text-align: center;
+}
+
+.footer_bg_section input::placeholder{
+    color: #fff;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer_bg_section .btn_mail {
+    
+color: #fff;
+    background-color: #e59205;
+margin-top: 20px;
+border: 1px solid #e59205;
+padding: 8px 30px;
+font-weight: 600;
+border-radius: 0;
+font-family: 'Big Shoulders Display', sans-serif;
+}
+.footer_bg_section .btn_mail:hover{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #fff;
+    font-weight: 600;
+}
+
+/********************************footer */
+
+footer{
+
+padding: 20px;
+}
+footer p{
+    
+font-size: 15px;
+    
+color: #a4a8bc;
+}
+
+footer ul {
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: end;
+}
+footer ul li {
+    
+margin-left: 11px;
+    
+font-size: 14px;
+    
+color: #a4a8bc;
+}
+.justi{
+    justify-content: space-between;
+}

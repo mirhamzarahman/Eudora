@@ -1,0 +1,394 @@
+/*****************************************1440px */
+
+@media (max-width:1440px) {
+    .food_bg_section .img {
+        width: 817px;
+        position: absolute;
+        right: 0;
+    }
+}
+
+/*****************************************1024px */
+@media (max-width:1024px){
+    .order_first_row h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        font-weight: 700;
+    }.order_second_row p {
+        text-align: center;
+        padding: 33px 0;
+        font-size: 14px;
+        font-weight: 300;
+    }.order_third_row .btn_order {
+        border: none;
+        border: 1px solid #6e7498;
+        border-radius: 0;
+        padding: 2px 25px;
+        font-weight: 600;
+        font-size: 19px;
+    }.food_bg_section .info h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-size: 43px;
+    }.food_bg_section .img {
+        width: 726px;
+        position: absolute;
+        right: 0;
+    }.food_bg_section {
+        background-color: #e59205;
+        min-height: 44vh;
+        position: relative;
+        align-items: center;
+        margin-bottom: 70px;
+    }footer p {
+        font-size: 14px;
+        color: #a4a8bc;
+    }
+
+}
+/*****************************************768px */
+@media (max-width:768px){
+    .navbar-nav{
+        text-align: center !important;
+        justify-content: center;
+    }.toggle_btn {
+        color: #fff !important;
+        font-size: 30px !important;
+        border: none !important;
+        border: transparent !important;
+        border: 1px solid black !important;
+    }
+    .toggle_btn.active{
+        border: 1px solid black;
+    }
+    .nav-item{
+        display: flex !important;
+        justify-content: center !important;
+    }
+   .nav_item_img {
+        justify-content: end;
+        margin: 12px auto;
+        text-align: center;
+        width: 28%;
+        position: absolute;
+        top: 4px;
+    }.banner_section h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 46px;
+    }.banner_section p {
+        color: #e0e0e0;
+        margin: 29px 0;
+        font-family: 'Playfair Display', serif;
+        line-height: 27px;
+        font-size: 13px;
+    }.order_first_row h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 26px;
+        font-weight: 700;
+    }.order_third_row .btn_order {
+        border: none;
+        border: 1px solid #6e7498;
+        border-radius: 0;
+        padding: 2px 11px;
+        font-weight: 600;
+        font-size: 16px;
+    }.btn_food {
+        border: none;
+        border: 1px solid #6e7498;
+        border-radius: 0;
+        padding: 5px 18px;
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #6e7498;
+    }.food_img_big p {
+        color: #6e7498;
+        font-weight: 300;
+        line-height: 30px;
+        font-size: 11px;
+        margin-bottom: 20px;
+    }.food_bg_section .img {
+        width: 534px;
+        position: absolute;
+        right: 0;
+    }.food_bg_section .info h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-size: 32px;
+    }.food_bg_section {
+        background-color: #e59205;
+        min-height: 32vh;
+        position: relative;
+        align-items: center;
+        margin-bottom: 70px;
+    }.order_second_row p {
+        text-align: center;
+        padding: 33px 0;
+        font-size: 11px;
+        font-weight: 300;
+    }.meet_section h4 {
+        color: #6e7498;
+        font-size: 23px;
+        margin: 20px 0;
+    }.meet_section p {
+        color: #6e7498;
+        font-size: 11px;
+        line-height: 33px;
+        font-weight: 370;
+        padding: 0;
+        margin-bottom: 25px;
+    }.footer_bg_section h1 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        margin-top: 115px;
+        font-size: 28px;
+        margin-bottom: 23px;
+    }.footer_bg_section input {
+        background: transparent;
+        border: 1px solid #fff;
+        padding: 5px 50px;
+        text-align: center;
+    }.footer_bg_section .btn_mail {
+        color: #fff;
+        background-color: #e59205 !important;
+        margin-top: 20px;
+        border: 1px solid #e59205;
+        padding: 5px 22px;
+        font-weight: 600;
+        border-radius: 0;
+        font-size: 15px;
+        font-family: 'Big Shoulders Display', sans-serif;
+    }footer p {
+        font-size: 10px;
+        color: #a4a8bc;
+    }footer ul li {
+        margin-left: 11px;
+        font-size: 10px;
+        color: #a4a8bc;
+    }
+}
+/***************************425px */
+@media (max-width:425px){
+    .banner_section h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 27px;
+    }.banner_section p {
+        color: #e0e0e0;
+        margin: 29px 0;
+        font-family: 'Playfair Display', serif;
+        line-height: 27px;
+        font-size: 11px;
+    }.btn_learn {
+        color: #fff;
+        border: none;
+        border: 3px solid #fff;
+        border-radius: 1px;
+        padding: 0;
+        font-family: 'Big Shoulders Display', sans-serif;
+        padding: 5px 21px;
+        font-weight: 700;
+        font-size: 16px;
+    }.order_first_row h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        /* margin: 15px 0; */
+        font-weight: 700;
+    }.order_first_row span {
+        display: none;
+        width: 100%;
+        height: 3px;
+        background-color: #e59205;
+    }.order_second_row p {
+        text-align: center;
+        padding: 33px 0;
+        font-size: 9px;
+        font-weight: 300;
+    }.food_bg_section .img {
+        width: 282px;
+        position: absolute;
+        right: 0;
+    }.food_bg_section {
+        background-color: #e59205;
+        min-height: 17vh;
+        position: relative;
+        align-items: center;
+        margin-bottom: 70px;
+    }.food_bg_section .info h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-size: 20px;
+        margin: -38px;
+    }.meet_section p {
+        color: #6e7498;
+        font-size: 11px;
+        line-height: 17px;
+        font-weight: 370;
+        padding: 0;
+        margin-bottom: 25px;
+    }footer p {
+        font-size: 7px;
+        color: #a4a8bc;
+    }footer {
+        padding: 20px;
+        text-align: center;
+    }footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 8px;
+    }.food_img {
+        margin: auto;
+        text-align: center;
+        width: 94%;
+        margin-bottom: 41px;
+    }
+}
+
+
+/*******************************************375px */
+
+@media (max-width:375px){
+    .nav-link {
+        color: #fff;
+        margin-left: 10px;
+        z-index: 1 !important;
+        font-weight: 600;
+        font-size: 10px !important;
+        font-family: 'Playfair Display', serif !important;
+    }.banner_section h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 24px;
+    }.banner_section p {
+        color: #e0e0e0;
+        margin: 29px 0;
+        font-family: 'Playfair Display', serif;
+        line-height: 20px;
+        font-size: 9px;
+    }.btn_learn {
+        color: #fff;
+        border: none;
+        border: 3px solid #fff;
+        border-radius: 1px;
+        padding: 0;
+        font-family: 'Big Shoulders Display', sans-serif;
+        padding: 5px 21px;
+        font-weight: 700;
+        font-size: 13px;
+    }.order_first_row h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 19px;
+        /* margin: 15px 0; */
+        font-weight: 700;
+    }.order_second_row p {
+        text-align: center;
+        padding: 21px 0;
+        font-size: 7px;
+        font-weight: 300;
+    }.order_third_row .btn_order {
+        border: none;
+        border: 1px solid #6e7498;
+        border-radius: 0;
+        padding: 2px 11px;
+        font-weight: 600;
+        font-size: 13px;
+    }.food_bg_section .img {
+        width: 249px;
+        position: absolute;
+        right: 0;
+    }.food_bg_section {
+        background-color: #e59205;
+        min-height: 15vh;
+        position: relative;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+}
+/***********************320px */
+@media (max-width:320px){
+    .footer_bg_section h1 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        margin-top: 115px;
+        font-size: 24px;
+        margin-bottom: 23px;
+    }.footer_bg_section input {
+        background: transparent;
+        border: 1px solid #fff;
+        padding: 5px 27px;
+        text-align: center;
+        /* font-size: 15px; */
+    }.footer_bg_section input::placeholder{
+        font-size: 16px;
+    }.food_bg_section .img {
+        width: 200px;
+        position: absolute;
+        right: 0;
+    }.food_bg_section .info h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-size: 18px;
+        margin: -38px;
+    }.food_bg_section {
+        background-color: #e59205;
+        min-height: 12vh;
+        position: relative;
+        align-items: center;
+        margin-bottom: 70px;
+    }.order_first_row h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        /* margin: 15px 0; */
+        font-weight: 700;
+    }.order_second_row p {
+        text-align: center;
+        padding: 21px 0;
+        font-size: 5px;
+        font-weight: 300;
+    }.order_second_row p {
+        text-align: center;
+        padding: 21px 0;
+        font-size: 5px;
+        font-weight: 300;
+    }.order_third_row .btn_order {
+        border: none;
+        border: 1px solid #6e7498;
+        border-radius: 0;
+        padding: 2px 11px;
+        font-weight: 600;
+        font-size: 6px;
+    }.banner_section h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 19px;
+    }.banner_section p {
+        color: #e0e0e0;
+        margin: 29px 0;
+        font-family: 'Playfair Display', serif;
+        line-height: 14px;
+        font-size: 7px;
+    }.btn_learn {
+        color: #fff;
+        border: none;
+        border: 3px solid #fff;
+        border-radius: 1px;
+        padding: 0;
+        font-family: 'Big Shoulders Display', sans-serif;
+        padding: 5px 21px;
+        font-weight: 700;
+        font-size: 11px;
+    }.order_second_row p {
+        text-align: center;
+        padding: 21px 0;
+        font-size: 7px;
+        font-weight: 300;
+    }
+}
